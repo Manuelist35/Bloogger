@@ -1,0 +1,12 @@
+
+/*font family Livvic Regular*/
+@font-face {
+    font-family: Livvic-Regular;
+    src: url(../Livvic/Livvic-Regular.ttf);
+}
+
+/*font family Livvic Medium Italic*/
+@font-face {
+    font-family: Livvic-MediumItalic;
+    src: url(../Livvic/Livvic-MediumItalic.ttf);
+}

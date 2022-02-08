@@ -1,0 +1,67 @@
+html, body {
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  /*---------------------- Global Classes ---------------------------*/
+  /*-----------x----------- Global Classes ---------------x------------*/
+  /*----------------------- Navbar --------------------------------*/
+  /*------------x----------- Navbar -------------------x-------------*/
+}
+
+html a, body a {
+  text-decoration: none;
+}
+
+html ul, body ul {
+  list-style-type: none;
+}
+
+html .flex-row, body .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html .nav, body .nav {
+  background: white;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 40vh;
+  overflow: hidden;
+}
+
+html .nav .nav-brand a, body .nav .nav-brand a {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+
+html .nav .nav-menu, body .nav .nav-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html .nav .nav-menu .social, body .nav .nav-menu .social {
+  padding: 1.4rem 0;
+}
+
+html .nav .nav-items, body .nav .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+html .nav .nav-items .navlink, body .nav .nav-items .navlink {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+/*# sourceMappingURL=blooggerStyle.css.map */

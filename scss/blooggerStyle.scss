@@ -1,0 +1,65 @@
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+/*---------------------- Global Classes ---------------------------*/
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flex-row{ // Here we are using this class in order to display7 our whole navigation bar as we want in order to make it look better, selecting the display flex property and dislaying it as a row we are indicating the browser hwo we want the elements inside this container to be displayed.
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*-----------x----------- Global Classes ---------------x------------*/
+
+
+
+    /*----------------------- Navbar --------------------------------*/
+    .nav{
+        background: white;
+        padding: 0 2rem;
+        height: 0rem;
+        min-height: 40vh;
+        overflow: hidden;
+
+        .nav-brand a {
+            font-size: 1.6rem;
+            padding: 1rem 0;
+        }
+
+        .nav-menu{
+            justify-content: space-between;
+            .social{
+                padding: 1.4rem 0;
+            }
+        }
+        .nav-items{
+            display:flex;
+            margin: 0;
+            .navlink{
+                padding: 1.6rem 1rem;
+                font-size: 1.1rem;
+                position: relative;
+            }
+        }
+
+    }
+
+    /*------------x----------- Navbar -------------------x-------------*/
+
+}
+
+
+
+
+
+ 
+
